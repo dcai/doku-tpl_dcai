@@ -1,10 +1,3 @@
-<script src="<?=DOKU_TPL?>js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-    var jQNew = $.noConflict(true);
-</script>
-<script src="<?=DOKU_TPL?>js/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?=DOKU_TPL?>js/sorttable.js" type="text/javascript"></script>
-<script src="<?=DOKU_TPL?>js/script.js" type="text/javascript"></script>
 <?php
 // omit ga script code if tracking id is not set
 // Google Analytics: Set this in your template settings.
@@ -23,3 +16,4 @@ ga('send', 'pageview');
 </script>
 
 <?php } ?>
+<script src="<?=DOKU_TPL?>js/script.js" type="text/javascript"></script>
