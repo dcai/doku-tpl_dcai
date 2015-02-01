@@ -46,6 +46,10 @@ html.popup {
 #mediamgr__content .pad {
   padding: .5em;
 }
+#media__ns {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: .5em;
+}
 
 #media__manager h1,
 #media__manager h2 {

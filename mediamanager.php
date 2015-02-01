@@ -26,7 +26,7 @@ if (!defined('DOKU_INC')) die(); /* must be run from within DokuWiki */
     <div class="container">
         <div id="media_manager" class="dokuwiki row">
             <?php html_msgarea() ?>
-            <div id="mediamgr_aside" class="col-sm-4">
+            <div id="mediamgr_aside" class="col-xs-4">
                 <h1><?php echo hsc($lang['mediaselect'])?></h1>
 
                 <?php /* keep the id! additional elements are inserted via JS here */?>
@@ -35,7 +35,7 @@ if (!defined('DOKU_INC')) die(); /* must be run from within DokuWiki */
                 <?php bootstrap_tpl_mediaTree() ?>
             </div>
 
-            <div id="mediamgr_content" class="col-sm-8">
+            <div id="mediamgr_content" class="col-xs-8">
                 <?php tpl_mediaContent() ?>
             </div>
         </div>
