@@ -29,7 +29,7 @@ if ($sidebarCols < 0 || $sidebarCols >= 12) {
     <?php @require_once(dirname(__FILE__).'/head-css.php'); ?>
 </head>
 
-<body data-spy="scroll" data-target="#dw_toc">
+<body data-spy="scroll" data-target="#dw_toc" class="doku-bootstrap-theme">
     <?php
     // the "dokuwiki__top" id is needed somewhere at the top, because that's where the "back to top" button/link links to
     // classes mode_<action> are added to make it possible to e.g. style a page differently if it's in edit mode,
