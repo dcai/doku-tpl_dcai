@@ -21,22 +21,29 @@
     font-style: bold;
 }
 
-.doku-bootstrap-theme #config__manager fieldset tr.default td.label {
-  padding: 0;
+.doku-bootstrap-theme #config__manager fieldset tr td.label {
+  padding: 0 1em;
   display: inline-block;
   vertical-align: top;
-  width: 30em;
+  /*width: 30em;*/
   white-space: nowrap;
   overflow: hidden;
 }
+.doku-bootstrap-theme #config__manager fieldset tr.default td.label {
+  color: red;
+}
+.doku-bootstrap-theme #config__manager td.label img {
+  display: none;
+}
 .doku-bootstrap-theme #config__manager td.label label {
   clear: left;
-  display: inline;
+  /*display: inline;*/
+  display: none;
   padding-left: 0;
   color: blue;
   font-size: 12px;
-  min-width: 30em;
-  max-width: 30em;
+  /*min-width: 30em;*/
+  /*max-width: 30em;*/
 }
 .doku-bootstrap-theme #config__manager td.label img {
     padding: 0 10px;
@@ -68,7 +75,7 @@
     height: 10em;
 }
 
-.doku-bootstrap-theme #config__manager tr.default {
+.doku-bootstrap-theme #config__manager tr {
     width: 10em;
 }
 
